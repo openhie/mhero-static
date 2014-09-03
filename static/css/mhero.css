@@ -1,0 +1,40 @@
+body{
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.header-text {
+	padding-top: 45px;
+	margin-left: 100px;
+	float: left;
+}
+
+#header{
+	padding: 0;
+	height: 150px;
+}
+.header-img {
+	float: right;
+}
+.header-img img{
+	height: 146px;
+	padding: 2px 1px 0 2px;
+}
+
+.app-name{
+  font-family: 'Helvetica Neue', 'RobotoThin', sans-serif;
+  font-size: 45px; letter-spacing: 1px;
+  font-weight: 100;
+  color: #fff;
+}
+.app-sub-title{
+  font-family: 'Helvetica Neue', 'RobotoThin', sans-serif;
+  font-size: 18px;
+  margin-top: 15px;
+  letter-spacing: 1px;
+  color: #DDDDDD;
+}
+.country {
+	font-weight: 900;
+	letter-spacing: 0px;
+}
