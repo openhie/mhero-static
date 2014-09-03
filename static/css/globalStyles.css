@@ -125,15 +125,13 @@ p.printPage a:visited {
 .button_disabled {
     color: #ddd;
 }
-
-
-/* structure styles ----------------------------------------------------------*/
-
-#siteHeadWrap {
-	height: 130px;
+#siteHeader img {
+	padding: 8px;
+	height: 100px;
+	width: 100px;
 }
+
 #siteHeader {
-	height: 130px;
 	position: relative;
 	/* width: 778px; */
 	width: 90%;
@@ -165,18 +163,14 @@ p.printPage a:visited {
 }
 
 #siteOuterWrap {
-	background:  url(../img/nav_left.gif) repeat-y 0 0;
-
 	margin: 0 auto;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	padding-left:1px;
-	padding-right:1px;
+	padding:12px 1px 0 1px;
 	/*width: 780px; */
 	width: 90%;
 	background-color: #fff;
 }
-
 #siteInnerWrap {
     background: transparent url(img/navbar_bkgd.gif) repeat-y 147px 0;
 	text-align: left;
@@ -184,15 +178,11 @@ p.printPage a:visited {
 }
 
 #siteContent {
-    /*width: 590px; */
 	height: 1%;
 	min-height: 280px;
 	height: auto !important;
-	/*height: 280px;*/
 	padding: 14px;
 	margin:0px;
-	margin-left: 160px;
-	background: transparent url(../img/sitecontent_bkgd.gif) repeat-x;
 }
 .autoHideNav #siteContent {
     margin-left: 0px;
@@ -248,7 +238,7 @@ th .fieldhelp, .editRecord .fieldhelp {
 
 #inlineNavWrap {
 	position: absolute;
-	top: 96px;
+	top: 120px;
 	left: 0;
 	width: 100%;
 }
