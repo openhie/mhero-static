@@ -4,8 +4,7 @@ body{
 }
 
 .header-text {
-	padding-top: 45px;
-	margin-left: 100px;
+	margin-left: 0;
 	float: left;
 }
 
@@ -13,6 +12,11 @@ body{
 	padding: 0;
 	height: 150px;
   font-family: 'Helvetica Neue', 'RobotoThin', sans-serif;
+  border-bottom: 1px solid #DDDDDD;
+}
+.site-text {
+  margin-left: 40px;
+  padding-top: 45px;
 }
 
 .header-img {
@@ -20,8 +24,7 @@ body{
 }
 
 .header-img img{
-	height: 146px;
-	padding: 1px 1px 0 0;
+	height: 150px;
 }
 
 .site-name{
@@ -54,13 +57,12 @@ body{
   height: 80px;
   width: 280px;
 }
-#usaid, #moh{
+#moh{
   width: 150px;
   height: 150px;
 }
-
-#ihris {
-  height: 150px;
+#ihris, #usaid{
+  height: 80px;
   width: 250px;
 }
 
@@ -70,4 +72,23 @@ body{
 
 .container{
   margin-right: 300px;
+}
+.page-content{
+  text-align: justify;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #999;
+}
+
+.about-header{
+  color: #86a9ca;
+  font-size: 24px;
+  border-bottom: solid 1px #999;
+  padding: 5px;
+}
+.rapid-pro-login-btn a{
+  padding:  30px;
+  font-size: 30px;
+  font-weight: 900;
 }
