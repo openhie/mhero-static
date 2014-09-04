@@ -43,11 +43,13 @@ body{
   padding: 2px;
   margin: 2px;
 }
-.twlogo, .intra-healthlogo, .unicef-logo{
+.intra-healthlogo, .unicef-logo{
   width: 280px;
   height: 80px;
 }
-
+.twlogo {
+  height: 50px;
+}
 #jembi {
   height: 80px;
   width: 280px;
