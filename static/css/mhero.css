@@ -12,23 +12,25 @@ body{
 #header{
 	padding: 0;
 	height: 150px;
+  font-family: 'Helvetica Neue', 'RobotoThin', sans-serif;
 }
+
 .header-img {
 	float: right;
 }
+
 .header-img img{
 	height: 146px;
 	padding: 1px 1px 0 0;
 }
 
 .site-name{
-  font-family: 'Helvetica Neue', 'RobotoThin', sans-serif;
   font-size: 45px; letter-spacing: 1px;
   font-weight: 100;
   color: #fff;
 }
+
 .site-sub-title{
-  font-family: 'Helvetica Neue', 'RobotoThin', sans-serif;
   font-size: 18px;
   margin-top: 15px;
   letter-spacing: 1px;
@@ -36,7 +38,6 @@ body{
 }
 .country {
 	font-weight: 900;
-	letter-spaciog: 0px;
 }
 .partners img{
   padding: 2px;
