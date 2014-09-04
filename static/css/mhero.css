@@ -95,7 +95,16 @@ body{
   padding: 5px;
 }
 .rapid-pro-login-btn a{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
   padding:  30px;
   font-size: 30px;
   font-weight: 900;
+}
+
+.footer-container{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
