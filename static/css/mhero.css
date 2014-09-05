@@ -100,11 +100,12 @@ body{
   padding: 5px;
 }
 .rapid-pro-login-btn a{
-  width: 500px;
+  width: 20%;
   margin-left: auto;
   margin-right: auto;
-  padding:  30px;
-  font-size: 30px;
+  padding:  3%;
+  display:inline-block;
+  font-size: 2em;
   font-weight: 900;
 }
 
