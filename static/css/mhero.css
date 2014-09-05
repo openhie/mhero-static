@@ -61,9 +61,14 @@ body{
   width: 150px;
   height: 150px;
 }
-#ihris, #usaid{
+#ihris{
   height: 80px;
   width: 250px;
+}
+
+#usaid{
+  height: 100px;
+
 }
 
 #partners-text{
