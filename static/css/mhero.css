@@ -117,5 +117,6 @@ body{
 
 div.rapid-pro-login-btn a.btn-block{
     margin-top:0px;
-
+    padding-left: initial;
+    padding-right: initial;
 }
