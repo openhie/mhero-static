@@ -14,9 +14,11 @@ body{
   font-family: 'Helvetica Neue', 'RobotoThin', sans-serif;
   border-bottom: 1px solid #DDDDDD;
 }
+
 .site-text {
-  margin-left: 40px;
   padding-top: 45px;
+  display:table-cell;
+  padding-left:10px;
 }
 
 .header-img {
@@ -81,6 +83,7 @@ body{
   padding: 5px;
 }
 .rapid-pro-login-btn a{
+  margin-top:10px;
   margin-left: auto;
   margin-right: auto;
   padding:  3%;
@@ -133,4 +136,32 @@ body{
     width: 100%;
     height: 80px;
     margin-bottom:60px;
+}
+
+
+
+div.rapid-pro-login-btn a.btn-block{
+    margin-top:0px;
+    padding-left: initial;
+    padding-right: initial;
+}
+
+
+html #pageBody {
+    min-width: 400px;
+}
+
+#header {
+    display:table;
+    width:100%;
+}
+
+.header-text {
+    width:100%;
+    
+}
+
+
+#left_logo {
+
 }
