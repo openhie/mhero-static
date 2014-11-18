@@ -68,6 +68,10 @@ body{
   width: 250px;
 }
 
+#openhi, #openhie {
+  height: 90px;
+}
+
 #usaid{
   height: 100px;
 
